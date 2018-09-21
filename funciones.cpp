@@ -25,7 +25,7 @@ int leernumero(){
 }
 int potenciaados(int n){
     int i=2;
-    while (i<=n)
+    while (i<=n/2)
         i*=2;
     return i;
 }
