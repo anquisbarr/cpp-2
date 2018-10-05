@@ -24,6 +24,18 @@ int main() {
         }
         cout << "\n";
     }
+    
+    // suma de filas
+    int sumas[n];
+    for (int i=0; i<n; i++){
+      int suma = 0;
+      for (int j=0; j<n; j++)
+        suma += arrInt[i][j]; 
+      sumas[i] = suma;
+    }
+    cout << "las sumasde la filas es:";
+    for (int i=0; i<n; i++)
+        cout << "fila(" << i << "):" << sumas[i] << " ";
 
     return 0;
 }
